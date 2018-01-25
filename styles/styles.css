@@ -1,0 +1,56 @@
+.hero{
+    background: #42A5F5;
+    color: white;
+}
+.app-icon {
+       color: #afafaf !important;
+}
+.app-icon-medium {
+    height: 120px;
+    width: 120px;
+}
+
+.app-icon-large {
+    font-size: 30px;
+    color: orange;
+}
+
+.btn-callto-action {
+    margin: 3px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: blueviolet;
+}
+
+.feature-div {
+    border: 2px dotted #42A5F5;
+    border-left: 4px solid #42A5F5;
+    border-radius: 0px 50px 0px 50px;
+    padding: 40px;
+    margin: 24px;
+}
+ul {
+    list-style: circle;
+    text-decoration:  none;
+    padding: 12px;
+}
+
+.margin-standard {
+    margin: 24px;
+}
+
+.padding-standard {
+    padding: 24px;
+}
+
+.nav-button{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px 0px 10px 0px;
+    margin: 32px 12px;
+    color: white;
+}
+.nav-button:focus {
+      font-weight: bold;
+      border: 2px dotted white;
+      
+}
