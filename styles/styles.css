@@ -52,5 +52,11 @@ ul {
 .nav-button:focus {
       font-weight: bold;
       border: 2px dotted white;
-      
+}
+
+.menu-button{
+    border-color:white;
+    color: white;
+    border-radius: 0px 12px 0px 12px;
+    border-width: 3px;
 }
