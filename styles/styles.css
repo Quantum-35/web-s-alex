@@ -11,7 +11,7 @@
 }
 
 .app-icon-large {
-    font-size: 30px;
+    font-size: 48px;
     color: orange;
 }
 
@@ -23,10 +23,39 @@
 
 .feature-div {
     border: 2px dotted #42A5F5;
-    border-left: 4px solid #42A5F5;
+    border-left: 8px solid #42A5F5;
+    border-right: 0px;
+    margin: 24px 48px;
     border-radius: 0px 50px 0px 50px;
-    padding: 40px;
-    margin: 24px;
+    padding: 24px;
+}
+
+.feature-device-chrome{
+     border: 2px dotted #42A5F5;
+    border-left: 4px solid #42A5F5;
+    border-right: 1px;
+    margin: 24px 48px;
+    border-radius: 35px;
+    padding: 24px;
+}
+
+.feature-device-chrome2 {
+    border: 2px dotted #42A5F5;
+    border-right: 4px solid #42A5F5;
+    border-left: 0px;
+    margin: 24px 48px;
+    border-radius: 35px;
+    padding: 24px;
+}
+.get-started{
+    background: black;
+    color: white;
+}
+
+.feature-header{
+    font-weight: lighter;
+    color: #42A5F5;
+    font-kerning: inherit;
 }
 ul {
     list-style: circle;
@@ -60,3 +89,5 @@ ul {
     border-radius: 0px 12px 0px 12px;
     border-width: 3px;
 }
+
+

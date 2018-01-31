@@ -9,6 +9,11 @@ $(document).ready(function(){
             scrollTop: $("#contact").offset().top
         }, 1000);
     });
+    $('#buttonGetStarted').click(function () {
+          $('html, body').animate({
+              scrollTop: $("#div-getstarted").offset().top
+          }, 1000);
+      });
     $('#btnTakeMeHome').click(function () {
         $('html, body').animate({ scrollTop: 0 }, 1000);
     });
