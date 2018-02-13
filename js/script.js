@@ -9,6 +9,12 @@ $(document).ready(function(){
             scrollTop: $("#contact").offset().top
         }, 1000);
     });
+
+     $('#aboutButton').click(function () {
+         $('html, body').animate({
+             scrollTop: $("#about").offset().top
+         }, 1000);
+     });
     $('#buttonGetStarted').click(function () {
           $('html, body').animate({
               scrollTop: $("#div-getstarted").offset().top

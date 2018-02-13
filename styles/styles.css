@@ -1,3 +1,6 @@
+body {
+    font-family: Comfortaa;
+}
 .hero{
     background: #42A5F5;
     color: white;
@@ -88,6 +91,23 @@ ul {
     color: white;
     border-radius: 0px 12px 0px 12px;
     border-width: 3px;
+}
+
+.about {
+      -webkit-column-count: 3;
+      /* Chrome, Safari, Opera */
+
+      -moz-column-count: 3;
+      /* Firefox */
+
+      column-count: 3;
+      -webkit-column-width: 100px;
+      /* Chrome, Safari, Opera */
+
+      -moz-column-width: 100px;
+      /* Firefox */
+
+      column-width: 100px;
 }
 
 
