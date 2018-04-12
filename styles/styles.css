@@ -1,3 +1,6 @@
+html body {
+    overflow-x: hidden;
+}
 body {
     font-family: Comfortaa;
 }
@@ -25,21 +28,17 @@ body {
 }
 
 .feature-div {
-    border: 2px dotted #42A5F5;
-    border-left: 8px solid #42A5F5;
-    border-right: 0px;
-    margin: 24px 48px;
-    border-radius: 0px 50px 0px 50px;
+    border-radius: 0px 25px 0px 25px;
     padding: 24px;
 }
 
 .feature-device-chrome{
      border: 2px dotted #42A5F5;
-    border-left: 4px solid #42A5F5;
-    border-right: 1px;
+    border-left: 0px solid #42A5F5;
+    border-right: 4px;
     margin: 24px 48px;
     border-radius: 35px;
-    padding: 24px;
+    padding: 12px;
 }
 
 .feature-device-chrome2 {
