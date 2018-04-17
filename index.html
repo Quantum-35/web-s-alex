@@ -18,18 +18,19 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid hero" style="position: fixed;z-index:1;">
         <div class="row hero">
             <div class="col-md-11 offset-1">
-                <nav class="navbar navbar-expand-lg navbar-fixed-top  hero">
+                <nav class="navbar navbar-expand-md  hero" style="padding: 0px;">
+        
                     <a class="navbar-brand align-left" href="#">
-                        <img src="./images/banq-icon.svg" class="app-icon app-icon-medium" style="margin-left:-24px;" alt="ban.q" />
+                        <img src="./images/banq-icon.svg" class="app-icon" height="80"  width="80" style="margin-left: -4px;" alt="ban.q" />
                     </a>
                     <button class="navbar-toggler menu-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="display-6">menu</span>
                     </button>
-
+        
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  ml-auto">
                             <li class="nav-item active">
@@ -43,14 +44,16 @@
                             <li class="nav-item ">
                                 <a id="aboutButton" class="nav-link nav-button text-center" href="about.html">About Ban.q</a>
                             </li>
-                            <li class="nav-item ">
-                                <a id="buttonContact" class="nav-link nav-button text-center" href="#">Contacts</a>
-                            </li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <div class="container-fluid" style="margin-top: 16px;">
         <div class="row hero">
             <div class="col-md-4  offset-1">
                 <div class="hero">
@@ -340,8 +343,6 @@
 
         </div>
     </div>
-    <br/>
-    <br/>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -350,35 +351,43 @@
         crossorigin="anonymous"></script>
 </body>
 <footer id="contact">
-    <div class="container-fluid footer navbar-fixed-bottom" style="background-color: #DCDCDC;">
+    <div class="container-fluid footer" style="background-color: #DCDCDC;">
         <div class="row">
-            <div class="col-md-4 text-center padding-standard">
-                <address>
-                    <h4>Physical Address</h2>
-                        <hr class="my-4"> Banq Microfinance
-                        <a href="mailto:webmaster@example.com">Jon Doe</a>.
-                        <br> Visit us at:
-                        <br> Box 564, Disneyland
-                        <br> USA
-                </address>
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-4 pull-right padding-standard">
+                        <address>
+                            <h5>Product</h5>
+                            Download Ban.q from playstore.
+                            <br/>
+                            <a href="mailto:webmaster@example.com">Android App</a>
+                        </address>
+                    </div>
+                    <div class="col-md-4 pull-right padding-standard">
+                        <address>
+                            <h5>Legal</h5>
+                            Read our privacy policy and terms of use<br/>
+                            <a href="mailto:webmaster@example.com">Privacy Policy</a>
+                            <br/>
+                            <a href="mailto:webmaster@example.com">Terms and conditions</a>
+                        </address>
+                    </div>
+                    <div class="col-md-4 pull-right  padding-standard">
+                        <address>
+                            <h5>Contact</h5>
+                            Email:
+                            <span>
+                                <a>info@ban.q.com</a>
+                            </span>
+                            <br/> Phone:
+                            <span>0713195124</span>
+                            <br/>
+                            <span>&copy; Ban.q 2018</span>
+                        </address>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 text-center  padding-standard">
-                <address>
-                    <h4>Contacts</h2>
-                        <hr> Safaricom Mobile : 0713195124
-                        <br/> Airtel Mobile : 0712345678
-                        <br/> Email: hello@ban-q.com
-                </address>
-            </div>
-            <div class="col-md-4 text-center  padding-standard">
-                <address>
-                    <h4>Copy right</h2>
-                        <hr> @2018 Sensys
-                        <br/> All Rights Reserved
-                        <br/>
-                        <a href="www.ban-q.com">ban-q.com</a>
-                </address>
-            </div>
+         
         </div>
     </div>
 </footer>

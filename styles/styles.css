@@ -42,7 +42,6 @@ body {
     min-height: 300px;
     padding: 28px;
 }
-
 .feature-device-chrome{
      border: 2px dotted #42A5F5;
     border-left: 0px solid #42A5F5;
@@ -86,14 +85,15 @@ ul {
 
 .nav-button{
     background-color: transparent;
+ 
+    margin: 0;
     margin-left: 12px;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: bold;
     color: white;
 }
 .nav-button:focus {
       font-weight: bold;
-      border: 2px dotted white;
       color: white;
 }
 
