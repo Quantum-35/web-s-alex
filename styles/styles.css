@@ -6,18 +6,25 @@ body {
 }
 .hero{
     background: #42A5F5;
-    color: white;
+    color: #F8F8FF;
 }
+
 .app-icon {
        color: #afafaf !important;
 }
 .app-icon-medium {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
+.app-icon-small {
+    height: 24px;
+    width: 24px;
+}
 .app-icon-large {
     font-size: 48px;
+    border: 3px solid white;
+    margin: 16px;
     color: #42A5F5;
 }
 
@@ -28,8 +35,12 @@ body {
 }
 
 .feature-div {
-    border-radius: 0px 25px 0px 25px;
-    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    margin-top: 24px; 
+    border: 2px solid #afafaf;
+    min-height: 300px;
+    padding: 28px;
 }
 
 .feature-device-chrome{
@@ -60,7 +71,7 @@ body {
     font-kerning: inherit;
 }
 ul {
-    list-style: circle;
+    list-style: square;
     text-decoration:  none;
     padding: 12px;
 }
@@ -75,14 +86,15 @@ ul {
 
 .nav-button{
     background-color: transparent;
-    border: 2px solid white;
-    border-radius: 10px 0px 10px 0px;
-    margin: 32px 12px;
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 300;
     color: white;
 }
 .nav-button:focus {
       font-weight: bold;
       border: 2px dotted white;
+      color: white;
 }
 
 .menu-button{
