@@ -121,4 +121,15 @@ ul {
       column-width: 100px;
 }
 
+#about-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.someBlock {
+    height: 50vh;
+    margin: 5vh auto;
+    position: relative;
+}
 
