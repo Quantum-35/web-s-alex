@@ -44,7 +44,7 @@ $(document).ready(function(){
         };
         $.ajax({
             type: 'PUT',
-            url: 'http://localhost:8000/v0/email-verification/verify',
+            url: 'http://api.ban-q.com/v0/email-verification/verify',
             date: params
         })
         .done(function() {
