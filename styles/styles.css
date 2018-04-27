@@ -92,6 +92,9 @@ ul {
     font-weight: bold;
     color: white;
 }
+.text-secondary {
+    color: yellow;
+}
 .nav-button:focus {
       font-weight: bold;
       color: white;
@@ -132,4 +135,6 @@ ul {
     margin: 5vh auto;
     position: relative;
 }
+
+
 
