@@ -1,8 +1,9 @@
 html body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body {
     font-family: Comfortaa;
+    height: 100%;
 }
 .hero{
     background: #42A5F5;
@@ -35,18 +36,15 @@ body {
 }
 
 .feature-div {
-    border-radius: 12px;
-    margin-bottom: 24px;
-    margin-top: 24px; 
-    border: 2px solid #afafaf;
-    min-height: 300px;
-    padding: 28px;
+    /* margin-bottom: 12px;
+    margin-top: 12px;  */
+    padding-bottom: 12px;
 }
 .feature-device-chrome{
      border: 2px dotted #42A5F5;
     border-left: 0px solid #42A5F5;
     border-right: 4px;
-    margin: 24px 48px;
+    /* margin: 24px 48px; */
     border-radius: 35px;
     padding: 12px;
 }
@@ -124,16 +122,20 @@ ul {
       column-width: 100px;
 }
 
-#about-footer {
-    position: fixed;
+ #about-footer {
+    position: absolute;
     bottom: 0;
     left: 0;
+    height: 80px;
     width: 100%;
 }
 .someBlock {
     height: 50vh;
     margin: 5vh auto;
     position: relative;
+}
+.smallDiv {
+    min-width: 360px;
 }
 
 
