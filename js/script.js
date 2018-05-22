@@ -32,7 +32,7 @@ $(document).ready(function(){
         var results = regex.exec( url );
         return results == null ? null : results[1];
     }
-    var code = gup('code',window.location.search);
+    var code = gup('c',window.location.search);
     if(code != null) {
         $('.someBlock').preloader({
             text: 'Verifying email',
@@ -51,7 +51,7 @@ $(document).ready(function(){
             $('#success').text('Email verified successfully');
           })
           .fail(function(error) {
-            $('#error').text('Error occoured while verifying your email, please try again later');
+            $('#error').text(error);
           })
           .always(function(){
               $('.someBlock').preloader('remove');
