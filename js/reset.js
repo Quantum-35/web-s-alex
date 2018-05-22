@@ -76,7 +76,7 @@ $(document).ready(function () {
                 success_message.hide();
                 // Log the error to the console
                 if (jqXHR.status == 400) {
-                    message.text('Sorry, link invalid or expired');
+                    error_message.text('Sorry, link invalid or expired');
                 } else if (jqXHR.status == 404){
                     error_message.show();
                     success_message.hide();
