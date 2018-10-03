@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('#buttonFeatures').click(function () {
         $('html, body').animate({
             scrollTop: $("#features").offset().top
@@ -10,30 +10,30 @@ $(document).ready(function(){
         }, 2500);
     });
 
-     $('#aboutButton').click(function () {
-         $('html, body').animate({
-             scrollTop: $("#about").offset().top
-         }, 2500);
-     });
-    $('#buttonGetStarted').click(function () {
-          $('html, body').animate({
-              scrollTop: $("#div-getstarted").offset().top
-          }, 2500);
-      });
-    $('#btnTakeMeHome').click(function () {
-        $('html, body').animate({ scrollTop: 0 }, 1000);
+    $('#aboutButton').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 2500);
     });
-   
+    $('#buttonGetStarted').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#div-getstarted").offset().top
+        }, 2500);
+    });
+    $('#btnTakeMeHome').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1000);
+    });
+
     // URL params 
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),
             sURLVariables = sPageURL.split('&'),
             sParameterName,
             i;
-    
+
         for (i = 0; i < sURLVariables.length; i++) {
             sParameterName = sURLVariables[i].split('=');
-    
+
             if (sParameterName[0] === sParam) {
                 return sParameterName[1] === undefined ? true : sParameterName[1];
             }
@@ -41,15 +41,12 @@ $(document).ready(function(){
     };
 
 
-    
-
-    var code = getUrlParameter('c',window.location.search);
-    if(code) {
+    var code = getUrlParameter('c', window.location.search);
+    if (code) {
         verifyEmail();
-    }else{
+    } else {
         $('#error').text('Sorry, link invalid or expired');
     }
-
 
 
     function verifyEmail() {
@@ -71,17 +68,17 @@ $(document).ready(function(){
                 type: "put",
                 data: JSON.stringify(params)
             });
-    
+
             // Callback handler that will be called on success
             request.done(function (response, textStatus, jqXHR) {
                 error_message.hide();
                 success_message.show();
                 success_message.text('Email verified successfully!');
             });
-    
+
             // Callback handler that will be called on failure
             request.fail(function (jqXHR, textStatus, errorThrown) {
-                
+
                 error_message.show();
                 success_message.hide();
                 // Log the error to the console
@@ -89,7 +86,7 @@ $(document).ready(function(){
                     error_message.show();
                     success_message.hide();
                     error_message.text('Sorry, link invalid or expired');
-                } else if (jqXHR.status == 404){
+                } else if (jqXHR.status == 404) {
                     error_message.show();
                     success_message.hide();
                     error_message.text('Sorry, link invalid or expired');
@@ -101,7 +98,7 @@ $(document).ready(function(){
                 }
             });
 
-            request.always(function(){
+            request.always(function () {
                 $('.someBlock').hide();
             })
         }
