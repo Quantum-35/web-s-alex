@@ -1,4 +1,4 @@
-const isDEV = true;
+const isDEV = false;
 
 const BASE_URL = isDEV ? 'http://localhost:8000/v0' : 'https://api.ban-q.com/v0';
 
@@ -53,7 +53,7 @@ function confirmEmail() {
     }
 }
 
-//Confirm email
+//Reset password
 function resetPassword() {
 
     var message = $('#message');
