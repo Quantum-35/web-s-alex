@@ -1,0 +1,429 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.slider2-text h1 {
+	padding-right: 0;
+}
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.subscribe-form input {
+	margin-right: 13px;
+	width: 65%;
+}
+.subscribe-text h2 {
+	font-size: 30px;
+}
+.slider-content {
+	margin-top: 12px;
+}
+.slider-content h1 {
+	line-height: 70px;
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+.slider-text {
+	padding-left: 0;
+}
+.slider-text h1 {
+	line-height: 60px;
+	font-size: 50px;
+	margin-bottom: 13px;
+}
+.slider2-button {
+	margin-top: 26px;
+}
+.download-button {
+	margin-top: 30px;
+}
+.download2-button a.active {
+	margin-bottom: 10px;
+}
+.our-features-wrapper {
+	margin-left: 0;
+}
+.features-text {
+	padding: 0;
+}
+.slider-height {
+	min-height: 910px;
+}
+.download-wrapper {
+	margin-top: 85px;
+}
+.slider2-text h1 {
+	padding-right: 0;
+}
+.slider3-wrapper {
+	background-position: center left;
+}
+
+.header-paddng {
+	padding: 0 15px;
+}
+.header-btn {
+	margin-left: 223px;
+}
+
+
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #fff;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+.navbar-icon {
+	background: #fff;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.blue-menu .navbar-toggler {
+	border: 2px solid #58468c;
+}
+.blue-menu .navbar-icon {
+	background: #58468c;
+}
+.transparent-menu .navbar-toggler {
+	border: 2px solid #58468c;
+}
+.transparent-menu .navbar-icon {
+	background: #58468c;
+}
+.main-menu ul.navbar-nav {
+    background: #fff;
+	margin-top: 20px;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+    padding: 10px 24px;
+    color: #222;
+}
+.slider-wrapper {
+	padding: 200px 0;
+}
+.testimonial-text p {
+	padding: 0;
+}
+.subscribe-form input {
+	width: 68%;
+}
+ .slider-bg-img {
+	display: none;
+}
+ .slider-content {
+	margin-top: 0;
+}
+.footer-link li {
+	margin: 0 17px;
+}
+.slider-content h1 {
+	line-height: 48px;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.slider-button {
+	margin-top: 35px;
+}
+.slider-height {
+	min-height: 0;
+	padding: 200px 0;
+}
+.download-area {
+	background-image: none !important;
+	background: #2b77eb;
+}
+.download-img {
+	display: none;
+}
+.download2 {
+	background: none;
+}
+.download-wrapper {
+	margin-top: 0;
+}
+.our-features-wrapper {
+	margin-left: 0;
+	margin-top: 0;
+}
+.features-text {
+	padding: 0;
+}
+.slider2-text h1 {
+	padding-right: 0;
+}
+.slider3-text h1 {
+	padding-right: 0;
+}
+.slider3-text p {
+	padding-right: 0;
+}
+.slider4-wrapper {
+	background-position: center left;
+}
+.subscribe2-wrapper .subscribe-form input {
+	width: 68%;
+}
+.header-paddng {
+	padding: 0 10px;
+}
+.sticky .transparent-menu {
+	padding: 15px 8px;
+	background: #fff;
+}
+.slider3-wrapper {
+	background-position: center left;
+}
+.single-height {
+	min-height: 400px;
+	padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #fff;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+.navbar-icon {
+	background: #fff;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.blue-menu .navbar-toggler {
+	border: 2px solid #58468c;
+}
+.blue-menu .navbar-icon {
+	background: #58468c;
+}
+.transparent-menu .navbar-toggler {
+	border: 2px solid #58468c;
+}
+.transparent-menu .navbar-icon {
+	background: #58468c;
+}
+.main-menu ul.navbar-nav {
+    background: #fff;
+	margin-top: 20px;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+    padding: 10px 24px;
+    color: #222;
+}
+.testimonial-text p {
+	padding: 0;
+}
+.screenshots-img {
+	text-align: center;
+}
+.footer-link li {
+	margin: 0 12px;
+}
+ .footer-icon a {
+	height: 50px;
+	width: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	margin-right: 4px;
+}
+ .download-button a.google {
+	margin-bottom: 10px;
+}
+ .section-title h1 {
+	font-size: 30px;
+}
+ .subscribe-form input {
+	margin-right: 0;
+	margin-bottom: 10px;
+	width:100%;
+}
+ .slider-bg-img {
+	display: none;
+}
+ .slider-content {
+	margin-top: 0;
+}
+.slider-content h1 {
+	line-height: 48px;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.slider-button {
+	margin-top: 35px;
+}
+.slider-button a.active {
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+.slider-height {
+	min-height: 0;
+	padding: 150px 0;
+}
+.service-text p {
+	padding: 0;
+}
+.features-title {
+	padding: 0;
+}
+.features-title h1 {
+	font-size: 30px;
+	line-height: 40px;
+}
+.download-area {
+	background-image: none !important;
+	background: #2b77eb;
+}
+.download-button {
+	margin-top: 40px;
+}
+.download-img {;
+	display: none;
+}
+.download2 {
+	background: none;
+}
+.download-wrapper {
+	margin-top: 0;
+}
+.header2 {
+	padding-left: 0;
+	padding-right: 0;
+}
+ .sticky .blue-menu {
+	padding: 15px 0;
+	background: #e5eeff;
+}
+ .sticky .white-menu {
+	padding: 15px 0;
+}
+.slider-wrapper {
+	padding: 150px 0;
+}
+.slider-text h1 {
+	line-height: 45px;
+	font-size: 40px;
+	margin-bottom: 14px;
+}
+.slider-text {
+	padding-left: 0;
+}
+.slider2-button a.active {
+	margin-bottom: 15px;
+}
+.slider2-button {
+	margin-top: 30px;
+}
+.our-features-wrapper {
+	margin-left: 0;
+	margin-top: 0;
+}
+.features-text {
+	padding: 0;
+}
+.slider2-text h1 {
+	padding-right: 0;
+}
+.slider2-text {
+	margin-top: 0;
+}
+.slider2-text p {
+	padding-right: 0;
+}
+.slider3-button {
+	margin-top: 30px;
+}
+.slider3-button a.active {
+	margin-bottom: 15px;
+}
+.our-features-text p {
+	padding-right: 0;
+}
+.single-service {
+	padding-right:10px;
+	padding-left:10px;
+}
+.slider4-wrapper {
+	background-position: center left;
+}
+.slider3-text h1 {
+	padding-right: 0;
+}
+.slider3-text p {
+	padding-right: 0;
+}
+.slider4-button {
+	margin-top: 33px;
+}
+.slider4-button a.active{margin-bottom:15px;}
+.service2-wrapper {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.subscribe2-wrapper .subscribe-form input {
+	margin-right: 0;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.header-paddng {
+	padding: 0;
+}
+.sticky .transparent-menu {
+	padding: 15px 0;
+	background: #fff;
+}
+.slider3-wrapper {
+	background-position: center left;
+}
+.single-height {
+	min-height: 500px;
+}
+.transparent-menu {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}

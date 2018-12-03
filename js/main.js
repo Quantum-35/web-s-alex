@@ -53,7 +53,7 @@ function confirmEmail() {
     }
 }
 
-//Reset password
+//Confirm email
 function resetPassword() {
 
     var message = $('#message');
