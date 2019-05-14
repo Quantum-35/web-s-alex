@@ -6,7 +6,7 @@ body {
     height: 100%;
 }
 .hero{
-    background: #42A5F5;
+    background: #00796B;
     color: #F8F8FF;
 }
 
@@ -26,7 +26,7 @@ body {
     font-size: 48px;
     border: 3px solid white;
     margin: 16px;
-    color: #42A5F5;
+    color: #00796B;
 }
 
 .btn-callto-action {
@@ -41,8 +41,8 @@ body {
     padding-bottom: 12px;
 }
 .feature-device-chrome{
-     border: 2px dotted #42A5F5;
-    border-left: 0px solid #42A5F5;
+     border: 2px dotted #00796B;
+    border-left: 0px solid #00796B;
     border-right: 4px;
     /* margin: 24px 48px; */
     border-radius: 35px;
@@ -50,8 +50,8 @@ body {
 }
 
 .feature-device-chrome2 {
-    border: 2px dotted #42A5F5;
-    border-right: 4px solid #42A5F5;
+    border: 2px dotted #00796B;
+    border-right: 4px solid #00796B;
     border-left: 0px;
     margin: 24px 48px;
     border-radius: 35px;
@@ -64,7 +64,7 @@ body {
 
 .feature-header{
     font-weight: lighter;
-    color: #42A5F5;
+    color: #00796B;
     font-kerning: inherit;
 }
 ul {

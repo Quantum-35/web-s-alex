@@ -204,7 +204,7 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
-.btn:hover{background:#fff;color:#2b77eb;border-color:#fff;}
+.btn:hover{background:#fff;color:#00796B;border-color:#fff;}
 .breadcrumb > .active {
 	color: #888;
 }
@@ -270,7 +270,7 @@ label {
 	right: 0;
 	z-index: 9;
 	transition: .4s;
-	background-color: #1D89E4;
+	background-color: #00796B;
 }
 .navbar.navbar-expand-lg {
 	padding: 0;
@@ -323,7 +323,7 @@ label {
 	width: 100%;
 	box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
 	z-index: 1030;
-	background: #1D89E4;
+	background: #00796B;
 }
 .sticky .header-area{padding:15px 0;}
 .sticky .blue-menu{padding:15px 60px;background:#e5eeff;}
@@ -397,7 +397,7 @@ label {
 }
 .slider-button a.active {
 	background: #fff;
-	color: #2b77eb;
+	color: #00796B;
 	margin-right: 5px;
 	font-weight: 800;
 	padding: 14px 45px;
@@ -428,15 +428,15 @@ label {
 	padding: 14px 54px;
 	transition:.3s;
 }
-.slider2-button a.btn:hover{background:#5580ff;color:#fff;border-color:#5580ff;}
+.slider2-button a.btn:hover{background:#00796B;color:#fff;border-color:#00796B;}
 .slider2-button a.active {
-	background: #5580ff;
-	color: #2b77eb;
+	background: #00796B;
+	color: #00796B;
 	margin-right: 5px;
 	font-weight: 800;
 	padding: 14px 44px;
 	margin-right: 13px;
-	border-color: #5580ff;
+	border-color: #00796B;
 	color: #fff;
 }
 /* slider-3-style */
@@ -473,17 +473,17 @@ label {
 	font-weight: 800;
 	padding: 14px 54px;
 	transition:.3s;
-	border:1px solid #2b77eb;
+	border:1px solid #00796B;
 }
-.slider3-button a.btn:hover{background:#2b77eb;color:#fff;border-color:#5580ff;}
+.slider3-button a.btn:hover{background:#00796B;color:#fff;border-color:#00796B;}
 .slider3-button a.active {
-	background: #2b77eb;
-	color: #2b77eb;
+	background: #00796B;
+	color: #00796B;
 	margin-right: 5px;
 	font-weight: 800;
 	padding: 14px 44px;
 	margin-right: 13px;
-	border-color: #5580ff;
+	border-color: #00796B;
 	color: #fff;
 }
 /* slider-4-style */
@@ -573,7 +573,7 @@ label {
 .features-title span {
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #2b77eb;
+	color: #00796B;
 	font-size: 16px;
 }
 .features-title h1 {
@@ -639,7 +639,7 @@ label {
 .counter-icon{}
 .counter-icon a {
 	background: #fff;
-	color: #2b77eb;
+	color: #00796B;
 	font-size: 38px;
 	height: 80px;
 	width: 80px;
@@ -670,9 +670,9 @@ label {
 	transition:.3s;
 }
 .pricing-wrapper.active {
-	border:2px solid #2b77eb;
+	border:2px solid #00796B;
 }
-.pricing-wrapper:hover{border-color:#2b77eb;}
+.pricing-wrapper:hover{border-color:#00796B;}
 .pricing-top {
 	border-bottom: 1px solid #e2e2e2;
 	padding-bottom: 22px;
@@ -685,7 +685,7 @@ label {
 }
 .pricing-top-text i {
 	font-size: 12px;
-	color: #2b77eb;
+	color: #00796B;
 	margin-bottom: 10px;
 }
 .pricing-top-text span {
@@ -702,7 +702,7 @@ label {
 	margin-top: 45px;
 }
 .pricing-text h1 {
-	color: #2b77eb;
+	color: #00796B;
 	font-size: 38px;
 	font-weight: 700;
 	margin-bottom: 0;
@@ -734,9 +734,9 @@ label {
 	transition:.3s;
 }
 .pricing-button.active {
-	border-top:2px solid #2b77eb;
+	border-top:2px solid #00796B;
 	}
-.pricing-wrapper:hover .pricing-button {border-color:#2b77eb;}
+.pricing-wrapper:hover .pricing-button {border-color:#00796B;}
 .pricing-button a {
 	font-weight: 700;
 	color: #4b5d73;
@@ -776,16 +776,16 @@ label {
 	margin-bottom: 70px;
 }
 .pricing2-button a.btn {
-	border: 3px solid #5580ff;
+	border: 3px solid #00796B;
 	color: #4b5d73;
 	padding: 13px 69px;
 	margin-bottom: 35px;
 	transition: .3s;
 }
-.pricing2-button a.btn:hover{color:#fff;background:#5580ff;border-color:#5580ff;}
-.pricing2-button  a.active{background:#5580ff;border-color:#5580ff;color:#fff;}
+.pricing2-button a.btn:hover{color:#fff;background:#00796B;border-color:#00796B;}
+.pricing2-button  a.active{background:#00796B;border-color:#00796B;color:#fff;}
 .pricing3-button a.btn {
-	border: 1px solid #5580ff;
+	border: 1px solid #00796B;
 	color: #4b5d73;
 	padding: 15px 69px;
 	margin-bottom: 35px;
@@ -962,7 +962,7 @@ label {
 	transition:.3s;
 }
 .download-button a:last-child{margin-right:0;}
-.download-button a:hover{background:#fff;color:#2b77eb;}
+.download-button a:hover{background:#fff;color:#00796B;}
 .download-button a i {
 	font-size: 30px;
 	padding-right: 13px;
@@ -1011,7 +1011,7 @@ label {
 	opacity: .6;
 	transition:.3s;
 }
-.footer-link li a:hover{color:#5580ff;opacity:1;}
+.footer-link li a:hover{color:#00796B;opacity:1;}
 .foter2-wrapper .footer-link li a {
 	color: #58468c;
 	opacity: 1;
@@ -1048,7 +1048,7 @@ label {
 	transition: .3s;
 	margin-right: 25px;
 }
- .foter2-wrapper .footer-icon a:hover{background:#5580ff;color:#fff;}
+ .foter2-wrapper .footer-icon a:hover{background:#00796B;color:#fff;}
 .foter3-wrapper .footer-icon a {
 	background: #b41aff;
 	color:#fff;
@@ -1179,7 +1179,7 @@ label {
 	margin-bottom: 67px;
 }
 .our-features-section span {
-	color: #0083ff;
+	color: #00796B;
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 12px;
@@ -1197,7 +1197,7 @@ label {
 	font-size: 38px;
 	float: left;
 	font-weight: 700;
-	color: #2b77eb;
+	color: #00796B;
 	margin-right: 40px;
 }
 .our-features-text{overflow:hidden;}
