@@ -1,12 +1,5 @@
+.idea/
+node_modules/
 /vendor
-
-composer.json
-
-composer.lock
-
-deploy.php
-
-#IDE files
-
-.idea
-
+data.pem
+test.php

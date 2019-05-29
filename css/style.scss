@@ -1,0 +1,11 @@
+@import "settings";
+@import "components";
+@import "home";
+@import "footer";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $fontFamily;
+  font-size: 1.2em;
+}
