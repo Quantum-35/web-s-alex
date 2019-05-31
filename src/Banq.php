@@ -69,6 +69,12 @@ class Banq
     {
         $this->app->get('/', AppController::class . ':home');
         $this->app->get('/index.html', AppController::class . ':home');
+
+        $this->app->get('/deposit', AppController::class . ':deposit');
+        $this->app->get('/deposit.html', AppController::class . ':deposit');
+
+        $this->app->get('/about', AppController::class . ':about');
+        $this->app->get('/about.html', AppController::class . ':about');
     }
 
     /**

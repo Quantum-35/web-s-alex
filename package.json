@@ -1,0 +1,22 @@
+{
+  "name": "banq.website",
+  "version": "1.0.0",
+  "description": "Repository for the Banq website.",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "normalize.scss": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass" :"node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://alexkimutai95@bitbucket.org/ban-q/banq.website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ban-q/banq.website#readme"
+}

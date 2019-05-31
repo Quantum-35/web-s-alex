@@ -17,6 +17,12 @@ class AppController
     public function home($request, $response, $args) {
         return $this->getPage("index.html", $response);
     }
+    public function about($request, $response, $args) {
+        return $this->getPage("deposit.html", $response);
+    }
+    public function deposit($request, $response, $args) {
+        return $this->getPage("about.html", $response);
+    }
 
     /**
      * Return the specified page as the response to the specified route
