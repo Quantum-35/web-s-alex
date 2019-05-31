@@ -3,30 +3,47 @@ html.no-js(lang='en')
     head
         include ./includes/head
     body.alt-grid
-        include ./includes/topbar
-        div.slideshow-container
-            div(class="mySlides fade")
-                div.numbertext 1 / 3
-                    img(src="image/img1.png" style="width:100%")
-                div.text Caption Text
+        div.body_background
+            include ./includes/topbar
+            div(id="carouselExampleIndicators" class="carousel slide" data-ride="carousel")
+                ol.carousel-indicators
+                    li(data-target="#carouselExampleIndicators" data-slide-to="0" class="active")
+                    li(data-target="#carouselExampleIndicators" data-slide-to="1")
+                    li(data-target="#carouselExampleIndicators" data-slide-to="2")
+                
+                div.carousel-inner
+                    div(class="carousel-item active")
+                        div(class="carousel-caption container carousels__container")
+                            div.row
+                                div.col-md.carousel__side_text
+                                    h2 It's about your money
+                                    p Get access to financial services right from the comfort of your phone.
+                                    img(src="bimg/googleplay.png", alt="Google Play" class="googleplay__img")
+                                div.col-sm
+                                    img(src="bimg/Screenshot_1558428283.png", alt="Mobile", class="mobile__img")
+                        div.carousel_background
+                    
+                    //- div(class="carousel-item")
+                    //-     div(class="carousel-caption container carousels__container")
+                    //-         div.row
+                    //-             div.col-md.carousel__side_text
+                    //-                 h2 It's about your money
+                    //-                 p Get access to financial services right from the comfort of your phone.
+                    //-                 img(src="bimg/googleplay.png", alt="Google Play" class="googleplay__img")
+                    //-             div.col-sm
+                    //-                 img(src="bimg/Screenshot_1558428283.png", alt="Mobile", class="mobile__img")
+                    //-     div.carousel_background
+                    
+                    //- div(class="carousel-item")
+                    //-     div(class="carousel-caption container carousels__container")
+                    //-         div.row
+                    //-             div.col-md.carousel__side_text
+                    //-                 h2 It's about your money
+                    //-                 p Get access to financial services right from the comfort of your phone.
+                    //-                 img(src="bimg/googleplay.png", alt="Google Play" class="googleplay__img")
+                    //-             div.col-sm
+                    //-                 img(src="bimg/Screenshot_1558428283.png", alt="Mobile", class="mobile__img")
+                    //-     div.carousel_background
 
-            div(class="mySlides fade")
-                div.numbertext 2 / 3
-                    img(src="image/img2.jpg" style="width:100%")
-                div.text Caption Two
 
-            div(class="mySlides fade")
-                div.numbertext 3 / 3
-                    img(src="image/img3.png" style="width:100%")
-                div.text Caption Three
-
-            a(class="prev" onclick="plusSlides(-1)") &#10094;
-            a(class="next" onclick="plusSlides(1)") &#10095
-        br
-        div(style="text-align:center")
-            span(class="dot" onclick="currentSlide(1)")
-            span(class="dot" onclick="currentSlide(2)")
-            span(class="dot" onclick="currentSlide(3)")
-        script(src="js/carousels.js")
-
-        //- include ./includes/footer
+        include ./includes/footer

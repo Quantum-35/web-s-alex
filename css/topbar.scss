@@ -11,8 +11,10 @@
     }
 }
 .navbar{
-    background-image: linear-gradient(to bottom right,#008080, #ffbf00);
-    overflow:hidden;
+    // background-image: linear-gradient(to bottom right,#008080, #ffbf00);
+    // overflow:hidden;
+    background: transparent;
+    box-shadow: 9px -2px 8px rgb(94, 94, 95);
 }
     nav{
     ul{

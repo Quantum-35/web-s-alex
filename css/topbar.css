@@ -11,8 +11,8 @@
   cursor: pointer; }
 
 .navbar {
-  background-image: linear-gradient(to bottom right, #008080, #ffbf00);
-  overflow: hidden; }
+  background: transparent;
+  box-shadow: 9px -2px 8px #5e5e5f; }
 
 nav ul li {
   color: white; }
