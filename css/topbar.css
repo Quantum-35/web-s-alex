@@ -10,7 +10,7 @@
     cursor: pointer; }
 
 .navbar {
-  background-color: line-gradient(to bottom-right, #008080, #ffbf00) !important;
+  background-image: linear-gradient(to bottom right, #008080, #ffbf00);
   overflow: hidden; }
 
 nav ul li {
