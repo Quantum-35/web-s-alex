@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js add pug
+
+PATH: 
+  /usr/local/mysql/bin:/usr/local/opt/php@7.1/sbin:/usr/local/opt/php@7.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/jameschege/WebstormProjects/web-s-alex/node_modules/.bin:/Users/jameschege/Library/Android/sdk/emulator:/Users/jameschege/Library/Android/sdk/tools:/Users/jameschege/Library/Android/sdk/tools/bin:/Users/jameschege/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jameschege/WebstormProjects/web-s-alex/package.json: Unexpected string in JSON at position 355
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "banq.website",
+    "version": "1.0.0",
+    "description": "Repository for the Banq website.",
+    "main": "index.js",
+    "dependencies": {
+      "node-sass": "^4.12.0",
+      "normalize.scss": "^0.1.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "sass": "node-sass --watch css -o css"
+      "prettier": "^1.17.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://alexkimutai95@bitbucket.org/ban-q/banq.website.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/ban-q/banq.website#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

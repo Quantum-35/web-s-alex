@@ -18,10 +18,10 @@ class AppController
         return $this->getPage("index.html", $response);
     }
     public function about($request, $response, $args) {
-        return $this->getPage("deposit.html", $response);
+        return $this->getPage("about.html", $response);
     }
     public function deposit($request, $response, $args) {
-        return $this->getPage("about.html", $response);
+        return $this->getPage("deposit.html", $response);
     }
 
     /**
