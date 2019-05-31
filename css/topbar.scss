@@ -54,3 +54,12 @@
   }
   @media only screen and (max-width: 768px) { 
     #navbarNav  ul li a ,  .Navbar {    flex-direction: column;  }   #navbarNav  ul li--right {    margin-left: 0;  }}
+
+nav.navbar.navbar-expand-lg.sticky-top {
+    height: 6em;
+}
+
+ul.navbar-nav.ml-auto li.nav-item a {
+    font-size: 1.5em;
+    font-weight: 300;
+}

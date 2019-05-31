@@ -13,15 +13,35 @@
 doctype html
 html.no-js(lang='en')
     head
+        title
+        link(rel="stylesheet", href="css/topNav-about.css")
         include ./includes/head
     body.alt-grid
-        include ./includes/topbar
+        include ./includes/about-nav
         .container-fluid
             div(class = "about" id = "about")
                 h2 About Us
-            
-        
-       
+        .container-fluid
+            div(class = "about-separator" id = "about-separator")
+            div(class = "about" id = "about-content")
+                In Kenya and Africa, money is a scarce
+                resource for middle-to-low-income earners.
+                In fact, getting it is difficult, as if keeping it is
+                not hard enough. The means to grow it are skewed to the disadvantage of the moneyowner.
+        .container-fluid
+            div(class = "about-separator" id = "about-separator1")
+            div(class = "about" id = "about-content1")
+                In Kenya and Africa, money is a scarce
+                resource for middle-to-low-income earners.
+                In fact, getting it is difficult, as if keeping it is
+                not hard enough. The means to grow it are skewed to the disadvantage of the moneyowner.
+        .container-fluid
+            div(class = "about-separator" id = "about-separator2")
+            div(class = "about" id = "about-content2")
+                In Kenya and Africa, money is a scarce
+                resource for middle-to-low-income earners.
+                In fact, getting it is difficult, as if keeping it is
+                not hard enough. The means to grow it are skewed to the disadvantage of the moneyowner.
 
 
         include ./includes/footer

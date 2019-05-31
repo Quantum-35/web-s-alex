@@ -12,7 +12,7 @@
   },
   "scripts": {
     "deploy": "\"vendor/bin/dep\" deploy:production",
-    "start": "php -S 0.0.0.0:3000" 
+    "start": "php -S 0.0.0.0:3000"
 
   },
   "require": {
