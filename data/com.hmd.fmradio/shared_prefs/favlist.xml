@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="favlist_fre0">93.9</string>
+    <string name="favlist_name0">ThislISlDefaultlNewlChannellNamelllllll</string>
+    <string name="favlist_fre2">102.7</string>
+    <string name="favlist_fre1">98.3</string>
+    <int name="favlist_num" value="4" />
+    <string name="name">New Channel</string>
+    <int name="index" value="-1" />
+    <string name="favlist_name3">ThislISlDefaultlNewlChannellNamelllllll</string>
+    <string name="favlist_fre3">104.8</string>
+    <string name="favlist_name1">ThislISlDefaultlNewlChannellNamelllllll</string>
+    <string name="favlist_name2">ThislISlDefaultlNewlChannellNamelllllll</string>
+    <string name="frequency">98.4</string>
+</map>
