@@ -1,18 +1,28 @@
 .footer-area {
   padding-top: 50px;
   padding-right: 30px;
-  padding-bottom: 200px;
+  padding-bottom: 220px;
   padding-left: 80px;
-  background: #f7f7f7;
+  background: grey;
+  background-image: linear-gradient(-90deg, #555555, #5b5b5b);
   margin-top: -150px;
   font-family: 'Times New Roman', Times, serif;
   line-height: 2;
   word-spacing: 5px;
   position: static;
   height: 50px;
+  color: white;
   margin-top: 50px;
   clear: both; }
-  .footer-area .footer-area h3 {
-    font-weight: bold; }
-  .footer-area .footer-area p {
-    font-size: 18px; }
+
+.footer-area .footer-area h3 {
+  font-weight: bold; }
+
+.footer-area .footer-area p {
+  font-size: 18px; }
+
+.ikon i {
+  color: grey !important; }
+
+#linkrel p a {
+  color: white !important; }
