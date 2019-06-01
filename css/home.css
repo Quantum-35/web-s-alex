@@ -1,9 +1,13 @@
+#carouselExampleIndicators {
+  height: 100vh; }
+
 .carousel-item img {
   height: 90vh; }
 
 .carousels__container {
   height: 40rem;
-  width: 100rem !important; }
+  width: 100rem !important;
+  margin-top: 6rem; }
 
 .carousel-caption {
   position: static !important; }
@@ -16,7 +20,7 @@
 .googleplay__img {
   width: 20em !important;
   height: auto !important;
-  margin-top: 5rem !important; }
+  margin: 5rem 0 0 -7rem !important; }
 
 .body_background {
   background-image: linear-gradient(to bottom right, #008080, #ffbf00);
