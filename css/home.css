@@ -182,4 +182,6 @@
 
 @media only screen and (min-width: 768px) {
   .google_assistant_image {
-    margin: 0rem; } }
+    margin: 0rem; }
+  .loan_offers p {
+    margin: 4rem 26rem; } }
