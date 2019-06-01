@@ -121,7 +121,8 @@
 }
 
 .main_bidding_plan {
-    margin: 6.7rem -29rem 0 11rem;
+    margin: 6.7rem -20rem 0 11rem;
+    background: yellow;
 
     img {
         width: 61rem;
@@ -216,6 +217,11 @@
 
 // MediaQueries
 
+@media (min-width: 576px) {
+    .main_bidding_plan img {
+    }
+}
+
 @media only screen and (min-width: 768px) {
     .google_assistant_image {
         margin: 0rem;
@@ -224,7 +230,12 @@
     .loan_offers p {
         margin: 4rem 26rem;
     }
-    .main_bidding_plan img {
-        margin: -4rem 0rem 0rem -13rem;
+
+    .main_bidding_plan{
+        // margin: 6.7rem -20rem 0 11rem;
     }
+}
+
+@media (min-width: 992px) {
+   
 }
