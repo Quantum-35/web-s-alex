@@ -62,7 +62,7 @@ div#about-separator2 {
 }
 
 .our-values {
-    padding-left: 28%;
+    padding-left: 33%;
     font-size: 3em;
     display: flex;
     flex-direction: row;
@@ -124,10 +124,12 @@ img.top-gradient-image {
 .team-container img.values-image {
     padding-bottom: 1em;
     border-radius: 50%;
-    background: rebeccapurple;
+    height: 55%;
+    width: 62%;
 }
 
 .container-fluid.team-container {
     background: #FFFFFF;
     width: 90%;
+    margin-top: 3em;
 }

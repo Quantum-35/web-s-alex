@@ -26,3 +26,10 @@
 
 #linkrel p a {
   color: white !important; }
+
+span.contact-icons {
+  margin-left: 1em;
+  font-family: Roboto; }
+
+footer.footer-area p {
+  font-size: 22px; }
