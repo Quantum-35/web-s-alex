@@ -5,9 +5,13 @@
   height: 40rem;
   width: 100rem !important; }
 
+.carousel-caption {
+  position: static !important; }
+
 .mobile__img {
   height: 39rem !important;
-  border-radius: 2%; }
+  border-radius: 2%;
+  margin-right: -15em; }
 
 .googleplay__img {
   width: 20em !important;
@@ -18,14 +22,13 @@
   background-image: linear-gradient(to bottom right, #008080, #ffbf00);
   overflow: hidden; }
 
-.carousel_background {
-  height: 90vh !important; }
-
 .carousel__side_text h2 {
   font-family: "Noto Serif";
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+  margin-left: 3.2rem; }
 
 .carousel__side_text p {
   font-family: "Roboto";
   text-align: left;
-  font-size: 2.5rem; }
+  font-size: 2.3rem;
+  margin-left: 3.5rem; }
