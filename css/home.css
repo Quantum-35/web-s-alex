@@ -38,4 +38,27 @@
   margin-left: 3.5rem; }
 
 .main_services {
-  margin-top: 2rem; }
+  background-image: url("../bimg/photo-1510148199876-8a856ee41d42.jpg");
+  height: 55rem;
+  opacity: 0.99; }
+
+.main_services h1 {
+  font-family: 'Noto Serif';
+  font-size: 5rem;
+  color: #E7CFBA;
+  text-align: center;
+  padding: 4rem; }
+
+.services_icons {
+  background-color: #ffbf00;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 4rem;
+  margin-right: 3rem;
+  height: 20rem;
+  background-color: rgba(8, 8, 8, 0.548); }
+
+.services_icons h2 {
+  margin-top: 2rem;
+  font-family: 'Roboto';
+  color: #CCCCCC; }
