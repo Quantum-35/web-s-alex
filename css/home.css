@@ -185,3 +185,81 @@
     margin: 0rem; }
   .loan_offers p {
     margin: 4rem 26rem; } }
+
+img.quotes {
+  margin-bottom: -10em; }
+
+p.info-rect {
+  height: 9em;
+  padding: 1em;
+  width: 26%;
+  background-color: #B2DFDB;
+  border-radius: 3%;
+  text-align: right;
+  margin-left: 31em; }
+
+span.words {
+  font-size: 1.8em; }
+
+.testimonials {
+  background: linear-gradient(to right, #01796B, #00695C); }
+
+.testimonial {
+  padding: 3em 0; }
+
+.testimonial2 {
+  padding: 3em 0; }
+
+.pointer {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #B2DFDB;
+  margin-left: 59%;
+  margin-top: -4.7%; }
+
+.pointer-right {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #B2DFDB;
+  margin-left: 33.4%;
+  margin-top: -4.68%; }
+
+.testimonial-image img {
+  width: 8%; }
+
+.testimonial-info {
+  text-align: right; }
+
+p.person-image img {
+  width: 10%;
+  margin-top: -4em;
+  margin-right: 23em;
+  border-radius: 50%;
+  background: #4f00df; }
+
+p.info-rect-left {
+  height: 9em;
+  padding: 1em;
+  width: 26%;
+  background-color: #B2DFDB;
+  border-radius: 3%;
+  text-align: left;
+  margin-left: 31em; }
+
+img.quotes.right {
+  margin-right: -3em;
+  margin-left: 19em; }
+
+img.person.left {
+  margin-right: 59em; }
+
+p.info-rect-left.teal {
+  background: #004D40;
+  color: #FFFFFF; }
+
+p.pointer-right.teal {
+  border-bottom: 50px solid #004D40; }
