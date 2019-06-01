@@ -2,8 +2,11 @@
   background-image: linear-gradient(to bottom right, #00808000, #ffbf0000) !important;
   box-shadow: 3px 3px 5px 1px #ccc;
   overflow: hidden; }
-  .navbar #navbarNav ul li a {
-    color: #999999 !important; }
+
+.navbar #navbarNav ul li a {
+  color: #999999 !important;
+  font-family: Roboto;
+  font-style: normal; }
 
 nav.navbar.navbar-expand-lg.sticky-top {
   height: 6em;
