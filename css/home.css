@@ -1,5 +1,5 @@
 #carouselExampleIndicators {
-  height: 100vh; }
+  margin-bottom: 2rem; }
 
 .carousel-item img {
   height: 90vh; }
@@ -36,3 +36,6 @@
   text-align: left;
   font-size: 2.3rem;
   margin-left: 3.5rem; }
+
+.main_services {
+  margin-top: 2rem; }
