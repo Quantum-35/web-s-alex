@@ -12,7 +12,15 @@
   height: 50px;
   margin-top: 50px;
   clear: both; }
-  .footer-area .footer-area h3 {
-    font-weight: bold; }
-  .footer-area .footer-area p {
-    font-size: 18px; }
+
+.footer-area .footer-area h3 {
+  font-weight: bold; }
+
+.footer-area .footer-area p {
+  font-size: 18px; }
+
+.ikon .fas {
+  color: black; }
+
+.ikon i {
+  width: 2em; }
