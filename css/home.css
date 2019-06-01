@@ -100,10 +100,9 @@
 
 .main_bidding_plan {
   margin: 6.7rem -20rem 0 11rem; }
-
-.main_bidding_plan img {
-  width: 61rem;
-  height: 30rem; }
+  .main_bidding_plan img {
+    width: 61rem;
+    height: 30rem; }
 
 .bidding_icon1__main {
   width: 9rem;
@@ -116,11 +115,10 @@
   font-size: 5rem;
   font-family: Roboto;
   color: #FFFFFF; }
-
-.bidding_icon1__main h2 {
-  color: #999999;
-  font-size: 2.5rem;
-  margin: -9rem 0rem 0rem 7rem; }
+  .bidding_icon1__main h2 {
+    color: #999999;
+    font-size: 2.5rem;
+    margin: -9rem 0rem 0rem 7rem; }
 
 .bidding_icon2__main {
   width: 9rem;
@@ -133,12 +131,11 @@
   font-size: 5rem;
   font-family: Roboto;
   color: #FFFFFF; }
-
-.bidding_icon2__main h2 {
-  color: #999999;
-  font-size: 2.5rem;
-  margin: -14rem 0rem 0rem 7rem;
-  width: 19rem; }
+  .bidding_icon2__main h2 {
+    color: #999999;
+    font-size: 2.5rem;
+    margin: -14rem 0rem 0rem 7rem;
+    width: 19rem; }
 
 .bidding_icon3__main {
   width: 9rem;
@@ -151,34 +148,29 @@
   font-size: 5rem;
   font-family: Roboto;
   color: #FFFFFF; }
-
-.bidding_icon3__main i {
-  font-size: 4rem;
-  margin: 1rem -0.9rem; }
-
-.bidding_icon3__main h2 {
-  color: #999999;
-  font-size: 2.5rem;
-  margin: -14rem 0rem 0rem 3rem;
-  width: 11rem; }
+  .bidding_icon3__main i {
+    font-size: 4rem;
+    margin: 1rem -0.9rem; }
+  .bidding_icon3__main h2 {
+    color: #999999;
+    font-size: 2.5rem;
+    margin: -14rem 0rem 0rem 3rem;
+    width: 11rem; }
 
 .loan_offers {
   text-align: center;
   margin-top: 4rem; }
-
-.loan_offers h2 {
-  font-family: 'Noto Serif';
-  font-size: 5rem; }
-
-.loan_offers p {
-  font-size: 2.5rem;
-  color: #666666;
-  font-family: Roboto;
-  width: 40rem;
-  margin: 4rem 31rem; }
-
-.loan_offers img {
-  margin: 5rem 6rem; }
+  .loan_offers h2 {
+    font-family: 'Noto Serif';
+    font-size: 5rem; }
+  .loan_offers p {
+    font-size: 2.5rem;
+    color: #666666;
+    font-family: Roboto;
+    width: 40rem;
+    margin: 4rem 31rem; }
+  .loan_offers img {
+    margin: 5rem 6rem; }
 
 @media only screen and (min-width: 768px) {
   .google_assistant_image {
