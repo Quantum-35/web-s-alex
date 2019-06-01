@@ -16,10 +16,16 @@
     position: static !important;
 }
 
+.mobilephone__img {
+    height: 38rem !important;
+    width: 22.6rem;
+}
+
 .mobile__img {
-    height: 39rem !important;
+    height: 31.49rem !important;
     border-radius: 2%;
-    margin-right: -15em;
+    width: 19.38rem;
+    margin: -39.4rem 0.072rem 0rem 0.25rem;
 }
 
 .googleplay__img {
@@ -204,5 +210,14 @@
 
     img {
         margin: 5rem 6rem;
+    }
+}
+
+
+// MediaQueries
+
+@media only screen and (min-width: 768px) {
+    .google_assistant_image {
+        margin: 0rem;
     }
 }
