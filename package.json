@@ -4,7 +4,7 @@
   "description": "Repository for the Banq website.",
   "main": "index.js",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "normalize.scss": "^0.1.0",
     "pug": "^2.0.3",
     "pug-cli": "^1.0.0-alpha6"
